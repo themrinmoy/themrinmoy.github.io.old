@@ -1,0 +1,128 @@
+h1 {
+    text-align: center;
+    width: 50%;
+    font-weight: 700;
+    text-decoration: skyblue underline wavy;
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h2 {
+    color: rgb(0, 0, 255);
+    background-color: rgb(0, 17, 255);
+    background: rgb(255, 255, 255);
+}
+
+button {
+
+    background-color: #a8dadc;
+}
+
+/* #signin {
+    background-color: #2e82a3;
+    color: #bde0fe;
+} */
+
+/* "#" use for accessing id */
+/* " . " use for accessing class */
+
+
+h3,
+p {
+    font-size: 30px;
+}
+
+button {
+    font-size: 30px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.place {
+    color: #e63946;
+    font-size: 15px;
+}
+
+span a {
+    color: aqua;
+}
+
+footer a {
+    color: red;
+}
+
+footer>a {
+    color: #2a9d8f;
+}
+
+input[type=password] {
+    color: greenyellow;
+}
+
+
+a[href*="hi"] {
+    color: yellow;
+}
+
+
+a:hover {
+    color: #03045e;
+    text-decoration: rgb(7, 203, 218) underline;
+}
+
+button:hover {
+    background-color: #2e82a3;
+    color: #2a9d8f;
+}
+
+.post button:hover {
+    background-color: #e63946;
+    color: bisque;
+}
+
+.post a {
+    color: #2a2c9d;
+    font-weight: bolder;
+
+}
+
+.post a:hover {
+    background-color: aqua;
+    color: #d00000;
+    text-decoration: underline;
+}
+
+button:active {
+    background-color: #ffba08;
+    color: #d00000;
+}
+
+a:active {
+    background-color: #ffba08;
+    color: #d00000;
+}
+
+.post:nth-of-type(2n) {
+    background-color: aquamarine;
+}
+
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+h1::first-letter {
+    font-size: 70px;
+}
+p::first-line{
+    color: rgb(234, 0, 255);
+}
+::selection{
+    color: #e76f51;
+    background-color: yellow;
+}
